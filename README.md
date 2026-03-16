@@ -12,13 +12,10 @@ A simple Tkinter-based password manager that generates random passwords and stor
 
 - `main.py` - Main GUI application and password save logic
 - `data.txt` - Data file where saved password entries are appended
-- `pyproject.toml` - Poetry project metadata and dependencies
-- `poetry.lock` - Locked dependency versions for reproducible installs
 
 ## Requirements
 
 - Python 3.8+
-- `poetry` (optional, recommended for dependency management)
 
 ## Run
 
@@ -28,17 +25,6 @@ A simple Tkinter-based password manager that generates random passwords and stor
 2. Run:
    ```bash
    python main.py
-   ```
-
-### Option B: Using Poetry
-
-1. Install dependencies:
-   ```bash
-   poetry install
-   ```
-2. Run app:
-   ```bash
-   poetry run python main.py
    ```
 
 ## Usage
